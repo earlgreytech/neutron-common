@@ -1,0 +1,1 @@
+This is a crate for shared constants and data that are used by both neutron-host and smart contract code (such as neutron-star)

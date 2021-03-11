@@ -22,7 +22,7 @@ pub const EXEC_FLAG_CREATE: u32 = 1;
 //TODO: this later needs to be moved/copied to neutron-constants for sharing with neutron-star
 #[derive(Clone, Debug, Eq, PartialEq)]
 pub enum RecoverableError{
-    ItemDoesntExist = 0x8000_0001,
+    ItemDoesntExist = 1,
     StackItemTooLarge,
     InvalidSystemFunction,
     InvalidSystemFeature,
